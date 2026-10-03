@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/erp-empresa-project-POO.iml" filepath="$PROJECT_DIR$/.idea/erp-empresa-project-POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestion/gestion.iml" filepath="$PROJECT_DIR$/gestion/gestion.iml" />
+    </modules>
+  </component>
+</project>
