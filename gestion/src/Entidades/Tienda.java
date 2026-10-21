@@ -200,59 +200,7 @@ public class Tienda {
         return new Empaque(material, tamano);
     }
 
-    private String elegirTecnica() {
-        System.out.println("\nTécnica de estampado:");
-        System.out.println("1. Sublimación (+$5000)");
-        System.out.println("2. Vinilo (+$7000)");
-        System.out.println("3. Bordado (+$12000)");
-        String tecnica = "";
-        while (tecnica.length() == 0) {
-            int op = leerEntero("Elige (1-3): ");
-            switch (op) {
-                case 1: tecnica = "Sublimación"; break;
-                case 2: tecnica = "Vinilo"; break;
-                case 3: tecnica = "Bordado"; break;
-                default: System.out.println("Opción no válida.");
-            }
-        }
-        return tecnica;
-    }
 
-    private String elegirTamanoDiseno() {
-        System.out.println("\nTamaño del diseño:");
-        System.out.println("1. Pequeño (+$0)");
-        System.out.println("2. Mediano (+$3000)");
-        System.out.println("3. Grande (+$6000)");
-        String tamano = "";
-        while (tamano.length() == 0) {
-            int op = leerEntero("Elige (1-3): ");
-            switch (op) {
-                case 1: tamano = "Pequeño"; break;
-                case 2: tamano = "Mediano"; break;
-                case 3: tamano = "Grande"; break;
-                default: System.out.println("Opción no válida.");
-            }
-        }
-        return tamano;
-    }
-
-    private String elegirContenido() {
-        System.out.println("\nTipo de contenido:");
-        System.out.println("1. Texto (+$0)");
-        System.out.println("2. Imagen (+$4000)");
-        System.out.println("3. Texto e imagen (+$6000)");
-        String contenido = "";
-        while (contenido.length() == 0) {
-            int op = leerEntero("Elige (1-3): ");
-            switch (op) {
-                case 1: contenido = "Texto"; break;
-                case 2: contenido = "Imagen"; break;
-                case 3: contenido = "Texto e imagen"; break;
-                default: System.out.println("Opción no válida.");
-            }
-        }
-        return contenido;
-    }
 
     private String elegirMaterial() {
         System.out.println("\nMaterial del empaque:");
