@@ -84,7 +84,7 @@ public class Tienda {
             inventario.agregarProducto(nuevo);
             System.out.println("Producto registrado: " + nuevo);
         } else {
-            System.out.println("El inventario está lleno (máximo 4 productos).");
+            System.out.println("El inventario está lleno (máximo 8 productos).");
         }
     }
 
