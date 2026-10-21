@@ -14,7 +14,6 @@ public class Personalizacion {
 
     public enum tipoContenido {
         DISENO_PROPIO, MENSAJE, LOGO;
-// A futuro para poder informar al disenador que elementos debe tener en cuenta, unido a la imagen de referenci asi la hay
     }
 
     public enum kanban {
@@ -295,14 +294,5 @@ estadoDiseno = kanban.ESPERANDO_APROBACION;
         return archivoCliente;
     }
     public tipoContenido getContenido(){ return contenido; }
-    public String toString() {
-        return "Personalizacion" +"\n"
-                +"tecnica=" + tecnica +"\n"+
-                "contenido=" + contenido +"\n"+
-                "tema='" + tema +"\n"+
-                "tamano=" + tamano +"\n"+
-                "servicioDiseno=" + diseno +"\n"+
-                "estado=" + estadoDiseno +"\n"+
-                "costo=" + costo+  "\n";
-    }
+
 }
